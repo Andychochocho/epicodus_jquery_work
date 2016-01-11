@@ -20,9 +20,9 @@
 
 
 $('#burrito-show').click(function(){
-  $('#burrito').toggle();
+  $('#burrito').toggle("fadeIn");
 });
 
 $('#soda-show').click(function(){
-  $('#soft_drink').toggle();
+  $('#soft_drink').toggle("fadeOut");
 });
